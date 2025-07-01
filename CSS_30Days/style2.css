@@ -1,0 +1,10 @@
+body{
+    background-color: bisque;
+    background-image: url(img/css.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+p{
+    color: black;
+}

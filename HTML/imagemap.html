@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Image map generator</h2>
+    <p>An imagemap is a graphic image where a user can click on different parts of the image and be directed to different destinations. imagemaps are made by defining each of the hot areas in terms of their x and y coordinates (relative to the top left hand corner). With each set of coordinates, you specify a link that users will be directed to when they click within the area</p>
+
+    <img src="plastic.jpg" usemap="#image-map">
+
+<map name="image-map">
+    <area onclick="one()" alt="" title="" href="" coords="739,22,1285,227" shape="rect">
+    <area onclick="two()" target="" alt="" title="" href="" coords="220,227,628,349" shape="0">
+    <area target="" alt="" title="" href="" coords="1151,238,1416,337" shape="0">
+</map>
+<script>
+    function one(){
+        alert("you clicked on one")
+    }
+    function two(){
+        alert("you clicked on two")
+    }
+</script>
+</body>
+</html>

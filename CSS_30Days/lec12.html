@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .gridcontainer{
+    border: 2px solid black;
+    width:750px;
+    height: 400px;   
+    display: grid;   
+    /* evenly distributes the elemnts inside  } */
+    /* grid-template-rows: 200px; */
+    grid-template-columns: repeat(4,1fr);
+    /* grid-template-columns: 150px 150px 150px; */
+    grid-gap:5px;
+    /* overflow: auto; */
+
+}
+.box1{
+    /* to move the box to diffrent position in grid we can use  grid-row: start/end; */
+    grid-row: 2/3;
+    grid-column: 3/4;
+    /* if you want to span a element */
+    grid-row: 1/3;
+}
+
+    </style>
+</head>
+<body>
+    <div class="gridcontainer">
+        <div class="box box1" style="background-color: pink;">1</div>
+        <div class="box" style="background-color: antiquewhite;">2</div>
+        <div class="box" style="background-color: aqua;">3</div>
+        <div class="box" style="background-color: azure;">4</div>
+        <div class="box" style="background-color: beige;">5</div>
+        <div class="box" style="background-color:saddlebrown ;">6</div>
+        <div class="box" style="background-color: blueviolet;">7</div>
+        <div class="box" style="background-color: burlywood;">8</div>
+        <div class="box" style="background-color: chartreuse;">9</div>
+        <div class="box" style="background-color: cornflowerblue;">10</div>
+    </div>
+</body>
+</html>

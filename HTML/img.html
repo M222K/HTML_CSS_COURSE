@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p><strong> Image tag</strong></p>
+    <img src="logo.jpg" alt="logo">
+    <p>we can even add an image through web by copying the image adress from the web</p>
+    <img src="https://images.pexels.com/photos/618491/pexels-photo-618491.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="indian food chaat stall" width="300px">
+
+ <p>we can even use <b>pitcure element</b> its similar to image tag but with more attributes</p>
+ <picture>
+    <source media="(min-width=650px)"   srcset="./logo.jpg"/>
+    <source media="(min-width=460px)"   srcset="./logo2.jpg"/> 
+    <!-- at this width a diffrent image can be loaded -->
+    <img src="./logo.jpg">
+ </picture>
+
+<p>basically pitcure tag is used in place of image tag as sometimes we need to show diffrent images in diffrent device sizes so to operate it smoothly we use this rather than img as that would be fixed size<br>
+    resize the page to see
+</p>
+
+</body>
+</html>

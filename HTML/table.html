@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tables</title>
+    <!-- styling of tables -->
+    <style>
+        table {
+            width: 100%;
+            text-align: center;
+            border-collapse: collapse;
+
+        }
+
+        td,
+        th {
+            background-color: #55535511;
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #3f3d3f11;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>How to create a Table</h1>
+    <p>use emmmet to create table syntax or can type table>tr>th*4</p>
+    <table>
+        <tr>
+            <!-- this is row of the table and th is the table headings or coloumns -->
+            <th>Country</th>
+            <th>Country-code</th>
+            <th>Email</th>
+        </tr>
+        <!-- now for next row again same but we fill table data -->
+        <tr>
+            <td>India</td>
+            <td>IN</td>
+            <td>In@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Japan</td>
+            <td>JP</td>
+            <td>jp@gmail.com</td>
+        </tr>
+        <tr>
+            <td>China</td>
+            <td>CN</td>
+            <td>cn@gmail.com</td>
+        </tr>
+    </table>
+    <br>
+<table style="width: 50%;">
+    <tr>
+        <th>Country</th>
+        <td>India</td>
+        <td>Russia</td>
+    </tr>
+    <tr>
+        <th>Country-code</th>
+        <td>IN</td>
+        <td>Ru</td>
+    </tr>
+
+</table>
+</body>
+
+</html>
+
+<!-- learn about colspan and rowspan -->
+<!-- colgroup  -->
+<!-- tfoot -->

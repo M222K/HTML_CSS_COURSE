@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Tags</title>
+  </head>
+  <body>
+    <!-- copy image adress in the src -->
+    <img
+      src="https://pokemonletsgo.pokemon.com/assets/img/common/char-pikachu.png"
+      alt="pokemon"
+    />
+    <!-- add image direclty if available in the folder itself -->
+    <img src="images (11).png" alt="leetcodelogo" />
+
+    <br /><br />
+    we can also create a responsive image by using picture tag
+    <picture>
+      <source
+        media="(min-width:500px)"
+        srcset="
+          https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7ab3a737-518c-4b98-84ee-3ba283849307/dgtpfn6-42e4e797-2a91-49b9-aa69-779d1b42b557.png/v1/fill/w_748,h_1069/aot_rewrite_au___eren_yeager_character_profile_by_marktarr_dgtpfn6-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzdhYjNhNzM3LTUxOGMtNGI5OC04NGVlLTNiYTI4Mzg0OTMwN1wvZGd0cGZuNi00MmU0ZTc5Ny0yYTkxLTQ5YjktYWE2OS03NzlkMWI0MmI1NTcucG5nIiwid2lkdGgiOiI8PTg5NiJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.r-aNLkNak8KOh-uqnIc0G1N8aliwT1bbjRPYdMjaLh4
+        "
+      />
+      <source
+        media="(min-width:600px)"
+        srcset="
+          https://imgcdn.stablediffusionweb.com/2024/9/14/87713b6c-9f24-4a9f-bf4a-1665d84117f0.jpg
+        "
+      />
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEl7gK1GPayLtwolWeW3iD99Wsqo_AiTGqxA&s"
+        alt="protagonist of story"
+      />
+      <!-- by defalut shows this image and changes media as per
+      the size specified -->
+    </picture>
+  </body>
+</html>

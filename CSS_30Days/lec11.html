@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 100px;
+            width:300px;
+        background-color: rgb(232, 153, 7);
+    border:2px solid black}
+    div#box{
+        /* moves the box based on the measurments */
+        transform: translate(20px,50 px);
+        -webkit-transform: translate(20px, 50px); 
+        /* transform: scale();
+    -webkit-transform: scale(0.5,2); */
+        /* this will scale the width and height accordingly of the element */
+        /* transform:rotate(45deg);
+    -webkit-transform: rotate(45deg); */
+    
+    }
+    </style>
+</head>
+<body>
+    <div>Transform Div</div>
+    <br>
+    <div id="box">Normal Div</div>
+</body>
+</html>

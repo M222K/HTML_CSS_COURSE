@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1{
+            background-color: pink;
+            height: 120px;
+            width: 500px;
+            box-sizing: content-box;
+            border: 5px solid black;
+            padding: 20 px;
+            /* all padding , border are added to the actual size of box increasing the overall size of the box */
+        }
+        .box2{
+            background-color: brown;
+            height: 120px;
+            width: 500px;
+            /* border box will take care that all the properties are adjusted to fit the size of the box */
+            box-sizing: border-box;
+            border: 5px solid black;
+            padding: 20 px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1"></div> 
+    <hr><hr>
+    <div class="box2"></div> 
+</body>
+</html>
